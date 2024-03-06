@@ -18,6 +18,9 @@ pontuando as vantagens e desvantagens de cada um dos dois tipos.
 Exercício 1.5 Qual é o caminho percorrido por uma requisição HTTP a uma página de hipertexto
 estática?
 
+
+## Documentos HTML e CSS 
+
 Exercício 2.1 Qual é o elemento HTML que contém todos os demais elementos de uma página? 
 
 Exercício 2.2 Qual é o elemento HTML que contém elementos com metainformações sobre uma
