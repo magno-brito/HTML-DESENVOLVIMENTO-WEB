@@ -1,0 +1,33 @@
+
+Introdução
+
+Exercício 1.1 Quais são os 3 tipos de códigos básicos de uma página de hipertexto? Explique para que serve cada um dos tipos.
+
+Geralmente uma página de hipertexto contém um arquivo html, outro css e outro de uma linguagem específica (JavaScript ou PHP). O documento html é responsável por definir a estrutura
+a página como um texto. É neste arquivo que os textos, botões, labels e inputs são adicionados. O documento css é responsável pela estilização da página. Cores, fontes,
+espaçamentos e estilos são definidos. O documento de linguagem é responsável por tornar uma página dinâmica ou não. Por exemplo, com o JavaScript é possível criar variáveis
+e manipular estar variáveis dentro da página.
+
+Exercício 1.2 Quantos arquivos CSS e Javascript podem estar vinculados a uma mesma página de hipertexto? Justifique sua resposta.
+
+Normalmente, uma página contém apenas 1 arquivo HTML, mas pode estar associada a vários arquivos CSS e a vários arquivos Javascript. Separar esses códigos CSS em arquivos
+diferentes pode ajudar a melhorar a organização do código-fonte de um site como um todo. Portanto você poderia criar um arquivo CSS para estilizar botões, outro para o leiaute, outro para a tipografia e
+assim por diante
+
+Exercício 1.3 É possível diferentes páginas de hipertexto terem vínculo com os mesmos arquivos Javascript e CSS? Justifique sua resposta.
+
+É comum que os mesmos arquivos CSS sejam compartilhados entre diferentes páginas web. Assim, se você quiser mudar a tipografia usada em todas as páginas do site, basta ir ao arquivo
+CSS que contém essa formatação e mudar as propriedades de fonte desejadas. Assim, o site inteiro passará a ser mostrado com as novas definições de fonte. Pense em como isso facilita a manutenção
+de um site!
+
+
+Exercício 1.4 Descreva a diferença entre uma página de hipertexto estática e uma dinâmica, pontuando as vantagens e desvantagens de cada um dos dois tipos.
+
+Quando as páginas de um site são totalmente compostas por arquivos prontos, dizemos que o site é estático. Quando as páginas (ao menos algumas delas) são geradas por uma aplicação web, dizemos
+que o site é dinâmico. A principal vantagem das páginas estáticas é que não é necessário constante manutenção de seus conteúdos. 
+
+Exercício 1.5 Qual é o caminho percorrido por uma requisição HTTP a uma página de hipertexto estática?
+
+O usuário digita a url da aplicação desejada e uma requisição HTTP é enviada. Antes disso há uma conversão do DNS para o IP da aplicação desejada. Após a requisição chegar ao
+servidor corretamente (quando digitada corretamente) o servidor pode retornar com um arquivo html estático ou fazer algum tipo de processamento ou armazenamento do banco de 
+dados. Após isso uma resposta é enviada do servidor para o cliente também via HTTP.
