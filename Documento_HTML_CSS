@@ -1,0 +1,13 @@
+Documentos HTML e CSS
+
+Exercício 2.1 Qual é o elemento HTML que contém todos os demais elementos de uma página? A tag <html>.
+
+
+Exercício 2.2 Qual é o elemento HTML que contém elementos com metainformações sobre uma página web?
+Dentro do elemento head, na linha 4, temos um elemento de metainformação que indica qual é o conjunto de caracteres que deve ser utilizado para mostrar textos nessa página.
+
+Exercício 2.3 Qual é o elemento HTML que contém todos os elementos de conteúdo de uma página web?
+O elemento body, que é fechado na linha 12 nesse caso, envolve todos os elementos de conteúdo de um documento HTML. Assim como os elementos html, head e title, um documento HTML só tem um elemento body. 
+
+Exercício 2.4 Qual é o elemento HTML que permite associar um documento CSS a uma página web na seção de metainformações?
+basta usar um elemento do tipo link dentro do elemento head da página, e definir o valor do atributo rel como stylesheet e o valor do atributo href com o nome do arquivo CSS que deseja vincular a esse documento HT
